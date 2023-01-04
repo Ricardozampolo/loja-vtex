@@ -1,0 +1,9 @@
+.menu-header {
+    display: flex;
+    margin: 0.9375rem 0 0.9375rem 1.5rem;
+}
+
+p {
+    display: table;
+    vertical-align: middle;
+} 
