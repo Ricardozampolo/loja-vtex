@@ -3,44 +3,47 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 
-body div {
+.nav-bar {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-body .menu-logo-jussi {
-    margin: 0.9375rem auto 0.9375rem 1.5rem;
-    float: left;
+.menu-logo-jussi {
+    display: flex;
+    margin: 0.9375rem 0 0.9375rem 1.5rem;
 }
 
-body .menu-logo-jussi img {
+.menu-logo-jussi img {
     height: 2.5rem;
 }
 
-body .menu-logo-jussi p:nth-child(2){
+.menu-logo-jussi p:nth-child(2) {
     margin:0.8125rem 2rem;
     line-height: 1.5rem;
 }
 
-body .menu-logo-jussi p:nth-child(3){
+.menu-logo-jussi p:nth-child(3) {
     margin: 0.8125rem 0rem;
     line-height: 1.5rem;
 }
 
-body .search-login-cart{
-    float: right;
+.search-login-cart{
+    display: flex;
 }
 
-body .search-login-cart .search-bar {
+.search-login-cart .search-bar {
     width: 1.5rem;
     height: 1.5rem;
 }
 
-body .search-login-cart .shopping-cart {
+.search-login-cart .shopping-cart {
     width: 1rem;
     height: 1rem;
 }
 
-body .search-login-cart .first-part {
+.search-login-cart .first-part {
+    display: flex;
     border: solid 1px;
     border-radius: 1.5rem;
     border-color: grey;
@@ -49,24 +52,56 @@ body .search-login-cart .first-part {
     margin: 1.25rem 2rem 1.25rem 0;
 }
 
-body .search-login-cart .first-part p{
+.search-login-cart .first-part p {
     margin: 0.5rem 8.625rem 0.5rem 1rem;
     width: 3,0625rem;
     line-height: 1.5rem;
     color: #EE0E7D;
 }
 
-body .search-login-cart .first-part img {
+.search-login-cart .first-part img {
     margin: 0.5rem 1.3125rem 0.8125rem 0;
 }
 
-body .search-login-cart .second-part p{
+.search-login-cart .second-part{
+    display: flex;
+}
+
+.search-login-cart .second-part p {
     margin: 1.75rem 2.0625rem 1.75rem 0;
     line-height: 1.5rem;
 }
 
-body .search-login-cart .second-part img {
+.search-login-cart .second-part img {
     margin: 1.8125rem 1.5625rem 1.875rem 0;
     height: 1.25rem;
     width: 1.375rem;
+}
+
+.background {
+    background-color: #03FFA5;
+    width: auto;
+    height: 35rem;
+}
+
+.background .background-text p:nth-child(1) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+    width: 28.1875rem;
+    padding: 5rem 0 1rem 10.375rem;
+}
+
+.background .background-text p:nth-child(2) {
+    width: 20.5625rem;
+    line-height: 1.5rem;
+    padding: 0 0 2rem 10.375rem;
+}
+
+.background .background-text a {
+    border:solid 1px;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1.25rem;
+    color: #000000;
+    margin: 0 67.375rem 5.0625rem 10.375rem;
 }
