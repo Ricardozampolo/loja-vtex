@@ -82,6 +82,7 @@ body{
     background-color: #03FFA5;
     width: auto;
     height: 35rem;
+    position: relative;
 }
 
 .background .background-text p:nth-child(1) {
@@ -106,28 +107,82 @@ body{
     margin: 0 0 5.0625rem 10.375rem;
 }
 
-.background .background-image {
+.background .background-images #imagem1 {
     position: absolute;
-    top: 7.5rem;
-    left: 53.655625rem;
     background: white;
     width: 13.0625rem;
     height: 16.9375rem;
+    top: 2.5rem;
+    left: 53.655625rem;
     border-radius: 8px;
+    z-index: 2;
+
 }
 
-.background .background-image img {
-    /* display: block; */
+.background .background-images #imagem1 img {
     padding: 2.4375rem 2.21rem 2.125rem 2.8125rem;
 }
 
-.background .background-image a {
+.background .background-images #imagem1 a {
     border: solid 1px;
     border-radius: 24px;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
     color: #EE0E7D;
-    width: 7rem;
-    height: 1.5rem;
+    width: 10rem;
+    height: 4rem;
     margin-left: 1.5rem;
+}
+
+.background .background-images #imagem2 {
+    position: absolute;
+    background: white;
+    width: 13.0625rem;
+    height: 16.9375rem;
+    top: 12.276875rem;
+    left: 45.5625rem;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.background .background-images #imagem2 img {
+    padding: 0.8125rem 0.8125rem 0.25rem 0.8125rem;
+    margin-bottom: 1rem;
+}
+
+.background .background-images #imagem2 a {
+    border: solid 1px;
+    border-radius: 24px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    color: #EE0E7D;
+    width: 9rem;
+    height: 4rem;
+    margin-left: 2rem;
+}
+
+.background .background-images #imagem3 {
+    position: absolute;
+    background: white;
+    width: 13.0625rem;
+    height: 16.9375rem;
+    top: 15.5625rem;
+    left: 61.30625rem;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.background .background-images #imagem3 img {
+    padding: 1.065625rem 1.255625rem 1.559375rem 1.121875rem;
+}
+
+.background .background-images #imagem3 a {
+    border: solid 1px;
+    border-radius: 24px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    color: #EE0E7D;
+    width:11rem;
+    height: 4rem;
+    margin-left: 1.0625rem;
 }
