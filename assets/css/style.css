@@ -272,7 +272,7 @@ body{
     height: 23.8125rem;
     border-color: #F2F2F2;
     box-sizing: border-box;
-    margin: 1rem 1.25rem 3.5rem 13rem;
+    margin: 0 1.25rem 3.5rem 13rem;
 }
 
 .products #produto1 img {
@@ -340,6 +340,86 @@ body{
 }
 
 .products #produto1 .box-content button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.products #produto2 {
+    position: absolute;
+    border: solid 0.0625rem;
+    border-radius: 0.25rem;
+    width: 15.0625rem;
+    height: 23.8125rem;
+    border-color: #F2F2F2;
+    box-sizing: border-box;
+    margin: 0 1.25rem 3.5rem 29.3125rem;
+}
+
+.products #produto2 img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.products #produto2 .internal {
+    position: absolute;
+    top: 2.9375rem;
+    left: 3.1875rem;
+    width: 1.875rem;
+    height: 2.375rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.products #produto2 .box-content {
+    position: absolute;
+    /* width: 13.0625rem;
+    height: 12.25rem; */
+    margin-top: 10.5625rem;
+    /* margin-left: 1rem; */
+}
+
+.products #produto2 .box-content h1 {
+    line-height: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.products #produto2 .box-content h2 {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #EE0E7D;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.products #produto2 .box-content p {
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    color: #5B5B5B;
+    margin-left: 1rem;
+    margin-bottom: 0.125rem;
+}
+
+.products #produto2 .box-content p:nth-child(5) {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.products #produto2 .box-content button {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 209px;
+    height: 48px;
+    margin-left: 1rem;
+    background: #03FFA5;
+    border-radius: 6px;
+    border: none;
+}
+
+.products #produto2 .box-content button a {
     text-decoration: none;
     color: #000000;
 }
