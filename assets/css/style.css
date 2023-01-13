@@ -238,348 +238,95 @@ body{
 
 .products .title-products {
     display: flex;
+    margin-top: 3.5rem;
+    margin-left: 13rem;
+    margin-bottom: 1.5rem;
 }
 
 .products .title-products img {
     width: 1.9375rem;
     height: 2.5rem;
-    font-family: 'Barlow';
-    font-style: normal;
+    font-family: 'Barlow', sans-serif;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 40px;
-    text-transform: uppercase;
-    margin: 3.5rem 0.25rem 1.5rem 13rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
 }
 
 .products .title-products h1 {
     width: 17.4375rem;
     height: 2.5rem;
-    font-family: 'Barlow';
-    font-style: normal;
+    left: 2.1875rem;
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.5rem;
     text-transform: uppercase;
-    margin: 3.4rem 0 1.5rem 0;
 }
 
-.products #produto1 {
-    position: absolute;
-    border: solid 0.0625rem;
-    border-radius: 0.25rem;
-    width: 15.0625rem;
-    height: 23.8125rem;
+.products .products-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.products .products-cards #produto1 {
+    width: 241px;
+    height: 381px;
+    border: solid 1px;
+    border-radius: 4px;
     border-color: #F2F2F2;
-    box-sizing: border-box;
-    margin: 0 1.25rem 3.5rem 13rem;
+    margin: 0 1.25rem 0 13rem;
 }
 
-.products #produto1 img {
+.products .products-cards #produto1 img {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
-.products #produto1 .internal {
+.products .products-cards #produto1 p {
     position: absolute;
-    top: 2.9375rem;
-    left: 3.1875rem;
-    width: 1.875rem;
-    height: 2.375rem;
+    width: 30px;
+    height: 38px;
+    margin-top: 2.9375rem;
+    margin-left: 3.1875rem;
     font-size: 2rem;
     line-height: 2.4rem;
+    text-transform: uppercase;
 }
 
-.products #produto1 .box-content {
-    position: absolute;
-    /* width: 13.0625rem;
-    height: 12.25rem; */
-    margin-top: 10.5625rem;
-    /* margin-left: 1rem; */
+.products .products-cards #produto1 .box-content {
+    width: 209px;
+    height: 196px;
+    margin: 10.5625rem 0 0 1rem;
 }
 
-.products #produto1 .box-content h1 {
-    line-height: 1.5rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+.products .products-cards #produto1 .box-content h1 {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-.products #produto1 .box-content h2 {
+.products .products-cards #produto1 .box-content h2 {
     font-size: 0.75rem;
     line-height: 1.125rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color: #EE0E7D;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
 }
 
-.products #produto1 .box-content p {
+.products .products-cards #produto1 .box-content h4 {
     font-size: 0.75rem;
     line-height: 1.125rem;
-    color: #5B5B5B;
-    margin-left: 1rem;
+    color: #b5b5b5;
     margin-bottom: 0.125rem;
 }
 
-.products #produto1 .box-content p:nth-child(5) {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-}
-
-.products #produto1 .box-content button {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 209px;
-    height: 48px;
-    margin-left: 1rem;
-    background: #03FFA5;
-    border-radius: 6px;
-    border: none;
-}
-
-.products #produto1 .box-content button a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.products #produto2 {
-    position: absolute;
-    border: solid 0.0625rem;
-    border-radius: 0.25rem;
-    width: 15.0625rem;
-    height: 23.8125rem;
-    border-color: #F2F2F2;
-    box-sizing: border-box;
-    margin: 0 1.25rem 3.5rem 29.3125rem;
-}
-
-.products #produto2 img {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-}
-
-.products #produto2 .internal {
-    position: absolute;
-    top: 2.9375rem;
-    left: 3.1875rem;
-    width: 1.875rem;
-    height: 2.375rem;
-    font-size: 2rem;
-    line-height: 2.4rem;
-}
-
-.products #produto2 .box-content {
-    position: absolute;
-    /* width: 13.0625rem;
-    height: 12.25rem; */
-    margin-top: 10.5625rem;
-    /* margin-left: 1rem; */
-}
-
-.products #produto2 .box-content h1 {
-    line-height: 1.5rem;
-    margin-left: 1rem;
+.products .products-cards #produto1 .box-content h4:nth-child(5) {
     margin-bottom: 1rem;
 }
 
-.products #produto2 .box-content h2 {
-    font-size: 0.75rem;
-    line-height: 1.125rem;
-    color: #EE0E7D;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.products #produto2 .box-content p {
-    font-size: 0.75rem;
-    line-height: 1.125rem;
-    color: #5B5B5B;
-    margin-left: 1rem;
-    margin-bottom: 0.125rem;
-}
-
-.products #produto2 .box-content p:nth-child(5) {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-}
-
-.products #produto2 .box-content button {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 209px;
-    height: 48px;
-    margin-left: 1rem;
-    background: #03FFA5;
-    border-radius: 6px;
-    border: none;
-}
-
-.products #produto2 .box-content button a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.products #produto3 {
-    position: absolute;
-    border: solid 0.0625rem;
-    border-radius: 0.25rem;
-    width: 15.0625rem;
-    height: 23.8125rem;
-    border-color: #F2F2F2;
-    box-sizing: border-box;
-    margin: 0 1.25rem 3.5rem 45.625rem;
-}
-
-.products #produto3 img {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-}
-
-.products #produto3 .internal {
-    position: absolute;
-    top: 2.9375rem;
-    left: 3.1875rem;
-    width: 1.875rem;
-    height: 2.375rem;
-    font-size: 2rem;
-    line-height: 2.4rem;
-}
-
-.products #produto3 .box-content {
-    position: absolute;
-    /* width: 13.0625rem;
-    height: 12.25rem; */
-    margin-top: 10.5625rem;
-    /* margin-left: 1rem; */
-}
-
-.products #produto3 .box-content h1 {
-    line-height: 1.5rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.products #produto3 .box-content h2 {
-    font-size: 0.75rem;
-    line-height: 1.125rem;
-    color: #EE0E7D;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.products #produto3 .box-content p {
-    font-size: 0.75rem;
-    line-height: 1.125rem;
-    color: #5B5B5B;
-    margin-left: 1rem;
-    margin-bottom: 0.125rem;
-}
-
-.products #produto3 .box-content p:nth-child(5) {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-}
-
-.products #produto3 .box-content button {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 209px;
-    height: 48px;
-    margin-left: 1rem;
-    background: #03FFA5;
-    border-radius: 6px;
-    border: none;
-}
-
-.products #produto3 .box-content button a {
-    text-decoration: none;
-    color: #000000;
-}
-
-.products #produto4 {
-    position: absolute;
-    border: solid 0.0625rem;
-    border-radius: 0.25rem;
-    width: 15.0625rem;
-    height: 23.8125rem;
-    border-color: #F2F2F2;
-    box-sizing: border-box;
-    margin: 0 1.25rem 3.5rem 61.9375rem;
-}
-
-.products #produto4 img {
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-}
-
-.products #produto4 .internal {
-    position: absolute;
-    top: 2.9375rem;
-    left: 3.1875rem;
-    width: 1.875rem;
-    height: 2.375rem;
-    font-size: 2rem;
-    line-height: 2.4rem;
-}
-
-.products #produto4 .box-content {
-    position: absolute;
-    /* width: 13.0625rem;
-    height: 12.25rem; */
-    margin-top: 10.5625rem;
-    /* margin-left: 1rem; */
-}
-
-.products #produto4 .box-content h1 {
-    line-height: 1.5rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.products #produto4 .box-content h2 {
-    font-size: 0.75rem;
-    line-height: 1.125rem;
-    color: #EE0E7D;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
-
-.products #produto4 .box-content p {
-    font-size: 0.75rem;
-    line-height: 1.125rem;
-    color: #5B5B5B;
-    margin-left: 1rem;
-    margin-bottom: 0.125rem;
-}
-
-.products #produto4 .box-content p:nth-child(5) {
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-}
-
-.products #produto4 .box-content button {
-    font-family: 'Barlow', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 209px;
-    height: 48px;
-    margin-left: 1rem;
-    background: #03FFA5;
-    border-radius: 6px;
-    border: none;
-}
-
-.products #produto4 .box-content button a {
-    text-decoration: none;
-    color: #000000;
+.products .products-cards #produto1 .box-content button {
+    
 }
