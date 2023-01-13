@@ -264,6 +264,7 @@ body{
 
 .products .products-cards{
     display: flex;
+    margin-bottom: 3.5rem;
 }
 
 .products .products-cards #produto1:nth-child(1) {
@@ -367,4 +368,66 @@ body{
     border-radius: 6px;
     width: 209px;
     height: 48px;
+}
+
+.mixed-background {
+    display: flex;
+}
+
+.mixed-background .background-white {
+    width: 100%;
+    height: 40.5rem;
+}
+
+.mixed-background .background-white .box-content {
+    width: 241px;
+    height: 468px;
+    margin-top: 4rem;
+    margin-left: 13rem;
+}
+
+.mixed-background .background-white .box-content h1 {
+    width: 241px;
+    height: 80px;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.mixed-background .background-white .box-content p {
+    width: 241px;
+    height: 292px;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.mixed-background .background-white .box-content button {
+    width: 162px;
+    height: 48px;
+    border-radius: 6px;
+    border: solid 1px;
+    background: #ffffff;
+}
+
+.mixed-background .background-white .box-content button a {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.mixed-background img {
+    position: absolute;
+    margin: 4rem 0 0 34.75rem;
+    z-index: 1;
+}
+
+.mixed-background .background-grey {
+    position: absolute;
+    width: 50%;
+    height: 40.5rem;
+    background: #F2F2F2;
+    margin-left: 45rem;
 }
