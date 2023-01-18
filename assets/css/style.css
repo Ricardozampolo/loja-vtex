@@ -3,6 +3,95 @@ body{
     font-family: 'Barlow', sans-serif;
 }
 
+/* ========== Mobile ========== */
+@media(max-width: 425px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .menu-logo-jussi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .menu-logo-jussi img {
+        width: 60%;
+        height: auto;
+    }
+
+    .menu-logo-jussi p {
+        width: 7.3125rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .search-login-cart {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 0.9375rem;
+        margin-bottom: 0.9375rem;
+    } 
+
+    .search-login-cart .first-part {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: solid 1px #f2f2f2;
+        border-radius: 1.5rem;
+        width: 15rem;
+        height: 2.5rem;
+        margin-top: 0.3125rem;
+        margin-bottom: 0.3125rem;
+    }
+
+    .search-login-cart .first-part input {
+        border: none;
+        margin: 0.5rem 0 0 1rem;
+        padding: 0;
+        width: 12rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+    }
+
+    .search-login-cart .first-part ::placeholder {
+        color: #ee0e7d;
+        width: 3.0625rem;
+        height: 1.5rem;
+        left: 1rem;
+        top: 0.8125rem;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    input:focus {
+        outline: 0;
+    }
+
+    .search-login-cart .first-part button {
+        border: none;
+        background: none;
+    }
+
+    .search-login-cart .second-part {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center
+    }
+
+}
+
+
+/* 
 .nav-bar {
     display: flex;
     flex-direction: row;
@@ -76,8 +165,12 @@ body{
     margin: 1.8125rem 1.5625rem 1.875rem 0;
     height: 1.25rem;
     width: 1.375rem;
-}
+} */
 
+
+
+
+/*
 .background {
     background-color: #03FFA5;
     width: auto;
@@ -555,4 +648,4 @@ body{
     flex-direction: row;
     justify-content: space-around;
     margin: 1.5rem 0 0 68.875rem;
-}
+}   */
