@@ -139,6 +139,37 @@ body{
         padding: 0.75rem 1.5rem;
         margin-bottom: 1.5rem;
     }
+
+    .background .struct {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        min-height: 40vh;
+    } 
+
+    /*O hidden torna o texto invisível caso ele ultrapasse os limites estabelecidos*/
+    .background .struct .carousel {
+        overflow: hidden;
+        height: 16.9375rem;
+        width: 13.0625rem;
+    }
+
+    /*Serve para fazer uma mudança no caso do easy-in-out, o inicio e o fim são lentos*/
+    /*Serve para movimentar os elementos, como é eixo X é para horizontal*/
+    .background .struct .carousel .container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        transform: translateX(0); 
+    } 
+
+    /*Serve para redimensionar a imagem para que ela possa se ajustar ao seu container*/
+    .background .struct .carousel .container img {
+        object-fit: cover;
+        height: 16.9375rem;
+        width: 13.0625rem;
+        border-radius: 0.5rem;
+    }
 }
 
 
