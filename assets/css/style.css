@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
 body{
     font-family: 'Barlow', sans-serif;
 }
@@ -140,35 +141,39 @@ body{
         margin-bottom: 1.5rem;
     }
 
-    .background .struct {
+    .background .struct .container {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        min-height: 40vh;
-    } 
-
-    /*O hidden torna o texto invisível caso ele ultrapasse os limites estabelecidos*/
-    .background .struct .carousel {
-        overflow: hidden;
-        height: 16.9375rem;
-        width: 13.0625rem;
+        flex-direction: row;
+        overflow-x: scroll;
+        scroll-behavior: smooth;
+        width: 70%;
+        margin: 0 auto;
     }
 
-    /*Serve para fazer uma mudança no caso do easy-in-out, o inicio e o fim são lentos*/
-    /*Serve para movimentar os elementos, como é eixo X é para horizontal*/
-    .background .struct .carousel .container {
+    .background .struct .container .product {
         display: flex;
-        transition: transform 0.5s ease-in-out;
-        transform: translateX(0); 
-    } 
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+        min-width: 13.0625rem;
+        min-height: 16.9375rem;
+        width: auto;
+        background: #ffffff;
+        margin: 0 0.5rem;
+    }
 
-    /*Serve para redimensionar a imagem para que ela possa se ajustar ao seu container*/
-    .background .struct .carousel .container img {
-        object-fit: cover;
-        height: 16.9375rem;
-        width: 13.0625rem;
-        border-radius: 0.5rem;
+    .background .struct .container .product img {
+        margin: 15px auto;
+
+    }
+
+    .background .struct .container .product a {
+        text-decoration: none;
+        color: #ee0e7d;
+        border: solid 1px #ee0e7d;
+        border-radius: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        text-align: center;
     }
 }
 
