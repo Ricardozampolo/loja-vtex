@@ -220,7 +220,7 @@ body{
     .products .title-products h1 {
         font-weight: 700;
         font-size: 1.5rem;
-        margin: 0.5rem 0 1rem;
+        margin: 0.5rem 0;
         line-height: 2.5rem;
     }
 
@@ -233,25 +233,30 @@ body{
         width: 15.0625rem;
         height: 23.8125rem;
         margin: 0 auto 1.5rem;
+
+        scroll-behavior: smooth;
+        overflow-x: scroll;
     }
 
-    .products-cards #produto1 img {
-        position: absolute;
-        margin: 1rem 0 0 1rem;
+    .products-cards #produto1 .box-p1 {
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 0 3.3125rem 0;
     }
 
-    .products-cards #produto1 p {
-        position: absolute;
+    .products-cards #produto1 .box-p1 p {
+        position: relative;
+        margin: 1.9375rem 0 0 2.1875rem;
         text-transform: uppercase;
         font-size: 2rem;
         line-height: 2.4rem;
-        margin: 2.9375rem 0 0 3.1875rem;
     }
-
+    
     .products-cards #produto1 .box-content {
+        display: flex;
+        flex-direction: column;
         width: 13.0625rem;
         height: 12.25rem;
-        margin: 10.5625rem 0 0 0;
     }
 
     .products-cards #produto1 .box-content h1 {
@@ -292,7 +297,7 @@ body{
        font-size: 1rem;
        font-family: 'Barlow',sans-serif;
        line-height: 1.5rem;
-    }
+    } 
 }
 
 
