@@ -245,7 +245,7 @@ body{
     }
 
     .products-cards #produto1 .box-p1 p {
-        position: relative;
+        position: absolute;
         margin: 1.9375rem 0 0 2.1875rem;
         text-transform: uppercase;
         font-size: 2rem;
@@ -297,7 +297,56 @@ body{
        font-size: 1rem;
        font-family: 'Barlow',sans-serif;
        line-height: 1.5rem;
-    } 
+    }
+
+    .mixed-background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: linear-gradient(to right,#ffffff , #f2f2f2);
+        align-items: center;
+    }
+
+    .mixed-background .title-text-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 15.0625rem;
+        height: 29.25rem;
+        margin: 2rem auto;
+    }
+
+    .mixed-background .title-text-button h1 {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        text-transform: uppercase;
+    }
+
+    .mixed-background .title-text-button p {
+        margin: 1.5rem 0;
+        line-height: 1.5rem;
+    }
+
+    .mixed-background .title-text-button button {
+        padding: 0;
+        border: solid 1px;
+        border-radius: 0.375rem;
+        width: 10.125rem;
+        height: 3rem;
+        background: #ffffff;
+    }
+
+    .mixed-background .title-text-button button a {
+        text-decoration: none;
+        color: #000000;
+        line-height: 1.5rem;
+    }
+
+    .mixed-background img {
+        width: 80%;
+        margin: 0 0 1rem 0;
+    }
 }
 
 
