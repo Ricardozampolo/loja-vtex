@@ -106,7 +106,7 @@ body{
     .background {
         background: #03FFA5;
         width: 100%;
-       padding-bottom: 2.5rem;
+        padding-bottom: 2.5rem;
     }
 
     .background .background-text {
@@ -208,6 +208,9 @@ body{
     .background-stores .background-sponsors img:nth-child(6) {
         margin: 0 0 1rem 0;
     }
+
+
+    /* ========== OUR SOLUTION ========== */
 
     .products .title-products {
         display: flex;
@@ -311,6 +314,9 @@ body{
        line-height: 1.5rem;
     }
 
+
+    /* ========== MIXED BACKGROUND ========== */
+
     .mixed-background {
         display: flex;
         flex-direction: column;
@@ -360,6 +366,8 @@ body{
         margin: 0 0 1rem 0;
     }
 
+    /* ========== CONTACT INFO ========== */
+
     .contact-info {
         background: #ee0e7d;
         display: flex;
@@ -395,6 +403,8 @@ body{
         line-height: 1.5rem;
         font-size: 1.2rem;
     }
+
+    /* ========== NEWSLETTER ========== */
 
     .newsletter {
         background: #000000;
@@ -452,6 +462,8 @@ body{
         width: 80%;
         margin-bottom: 5rem;
     }
+
+    /* ========== FOOTER ========== */
 
     .footer {
         background: #000000;
