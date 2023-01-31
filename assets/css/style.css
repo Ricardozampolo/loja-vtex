@@ -807,6 +807,43 @@ body{
     .mixed-background img {
         width: 47%;
     }
+
+    .contact-info {
+        background: #ee0e7d;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+    }
+
+    .contact-info .title-text {
+        width: 676px;
+        height: 208px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 3rem 0;
+    }
+
+    .contact-info .title-text h1 {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info .title-text p {
+        margin-bottom: 0.5rem;
+        line-height: 1.5rem;
+    }
+
+    .contact-info .title-text h3 {
+        line-height: 1.5rem;
+        font-size: 2rem;
+    }
 }   
 
 /* 
